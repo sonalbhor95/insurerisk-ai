@@ -1,0 +1,14 @@
+project:
+  name: InsureRisk AI
+  random_state: 42
+
+data:
+  openml_freq_id: 41214
+  openml_sev_id: 41215
+  processed_file: data/processed/mtpl_claims_modeling.csv
+
+model:
+  test_size: 0.2
+  frequency_model: PoissonRegressor
+  severity_model: GammaRegressor
+  pure_premium_model: TweedieRegressor
