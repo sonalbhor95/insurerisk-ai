@@ -1,0 +1,20 @@
+{
+  "lightgbm_frequency": {
+    "task": "claim_frequency",
+    "rmse": 0.012448099075769496,
+    "mae": 0.0002699376476535769
+  },
+  "xgboost_frequency": {
+    "task": "claim_frequency",
+    "rmse": 0.013312241993844509,
+    "mae": 0.00046423671301454306
+  },
+  "lightgbm_claim_classifier": {
+    "task": "claim_probability",
+    "roc_auc": 1.0
+  },
+  "xgboost_claim_classifier": {
+    "task": "claim_probability",
+    "roc_auc": 1.0
+  }
+}

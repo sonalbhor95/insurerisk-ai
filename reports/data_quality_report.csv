@@ -1,0 +1,8 @@
+check,value,status,details
+row_count,60000.0,PASS,"Expected more than 1,000 rows."
+duplicate_policy_ids,0.0,PASS,
+missing_values,0.0,PASS,
+invalid_exposure,0.0,PASS,
+negative_claim_count,0.0,PASS,
+negative_claim_amount,0.0,PASS,
+claim_rate,0.03716666666666667,PASS,Portfolio claim occurrence rate.

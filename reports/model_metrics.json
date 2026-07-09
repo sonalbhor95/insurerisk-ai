@@ -1,0 +1,13 @@
+{
+  "frequency_mae_expected_claim_count": 0.0740079024802244,
+  "pure_premium_two_stage_mae": 405.0469170624637,
+  "pure_premium_two_stage_rmse": 9085.132844994529,
+  "pure_premium_tweedie_mae": 409.73032844242385,
+  "pure_premium_tweedie_rmse": 9085.01902215465,
+  "claim_occurrence_auc": 0.6985695362233567,
+  "normalized_gini_expected_loss": 0.3408721373297137,
+  "test_rows": 12000,
+  "actual_claim_rate_test": 0.03716666666666667,
+  "average_predicted_pure_premium": 176.13383037708357,
+  "average_actual_pure_premium": 242.54352460167487
+}
